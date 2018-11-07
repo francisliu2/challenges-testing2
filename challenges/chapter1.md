@@ -59,6 +59,45 @@ l2:
 op:
   - '+'
   
+
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:fa27c04771
+## <<<New Exercise>>>
+
+
+*** =instructions
+Hi. This is a testing coding practice. 
+Numpy, matplotlib.pyplot and pandas has been imported for you. 
+*** =hint
+
+*** =pre_exercise_code
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+from numpy import random 
+```
+
+*** =sample_code
+```{python}
+random.seed(42)
+df = pd.read_csv('BirsthWeights.csv')
+# How to have a look of the DataFrame?
+df.____()
+```
+
+*** =solution
+```{python}
+random.seed(42)
+df = pd.read_csv('BirsthWeights.csv')
+# How to have a look of the DataFrame?
+df.head()
+```
+
+*** =sct
+```{python}
+
+```
 --- type:OutputChallenge key:6258197972
 ## popping lists (2)
 
